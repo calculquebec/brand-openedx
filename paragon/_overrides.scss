@@ -1,2 +1,17 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+
+// login page customization
+a#controlled-tab-tab-\/register {
+    display: none !important;
+}
+
+// sign in button
+button#sign-in {
+    background: #e96828 !important;
+    border-color: #e96828 !important;
+    display: block !important;
+    // display: none;
+}
+
